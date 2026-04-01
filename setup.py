@@ -1,4 +1,6 @@
-from setuptools import setup, find_packages
+import os
+
+from setuptools import find_packages, setup
 
 setup(
     name="pdf2markdown",
@@ -8,12 +10,7 @@ setup(
     author_email="your.email@example.com",
     url="https://github.com/yourusername/pdf2markdown",
     packages=find_packages(),
-    install_requires=[
-        "PyPDF2",
-        "pdfplumber",
-        "pdf2image",
-        "pytesseract",
-    ],
+    install_requires=["PyPDF2", "pdfplumber", "pdf2image", "pytesseract"],
     python_requires=">=3.7",
     classifiers=[
         "Programming Language :: Python :: 3",
