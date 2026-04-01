@@ -20,7 +20,7 @@ It handles:
 ## Installation
 
 ```bash
-pip install pdf2markdown
+pip install git+https://github.com/pytoni/Pdf-Reader.git
 ```
 
 For scanned PDFs, install OCR dependencies too:
